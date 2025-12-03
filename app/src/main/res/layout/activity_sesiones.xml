@@ -17,8 +17,7 @@
         android:layout_marginTop="100dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <LinearLayout
         android:id="@+id/adminPerfil"
@@ -39,13 +38,16 @@
             android:layout_height="100dp"
             android:contentDescription="Perfil Admin"
             android:src="@drawable/perfil" />
+
         <TextView
+            android:id="@+id/adminLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Admin"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="8dp"/>
+
         <Button
             android:id="@+id/adminButton"
             android:layout_width="wrap_content"
@@ -72,13 +74,16 @@
             android:layout_height="100dp"
             android:contentDescription="Perfil Usuario"
             android:src="@drawable/perfil" />
+
         <TextView
+            android:id="@+id/userLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Usuario"
             android:textSize="18sp"
             android:textStyle="bold"
             android:layout_marginTop="8dp"/>
+
         <Button
             android:id="@+id/userButton"
             android:layout_width="wrap_content"

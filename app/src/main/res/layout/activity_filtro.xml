@@ -9,14 +9,14 @@
     tools:context=".cartelera.filtro">
 
     <TextView
+        android:id="@+id/tituloFiltro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100sp"
         android:text="Ingrese el nombre de la pelicula que quiere buscar:"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <EditText
@@ -26,8 +26,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:hint="Nombre"
-        android:textSize="18sp"
-        >
+        android:textSize="18sp">
     </EditText>
 
     <Button
@@ -37,8 +36,7 @@
         android:text="Buscar"
         android:layout_gravity="center"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </Button>
 
     <TextView
@@ -48,8 +46,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="50sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -59,8 +56,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -70,8 +66,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -81,8 +76,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -92,8 +86,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <TextView
@@ -103,8 +96,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="10sp"
         android:textSize="18sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -121,11 +113,8 @@
             android:layout_height="wrap_content"
             android:text="Atras"
             android:gravity="center"
-            android:layout_gravity="center"
-            >
+            android:layout_gravity="center">
         </Button>
     </androidx.appcompat.widget.LinearLayoutCompat>
-
-
 
 </LinearLayout>

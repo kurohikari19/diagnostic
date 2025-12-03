@@ -8,14 +8,14 @@
     tools:context=".cartelera.login2">
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:text="Cartelera"
         android:textSize="40sp"
-        android:textStyle="bold"
-        >
+        android:textStyle="bold">
     </TextView>
 
     <ImageView
@@ -23,18 +23,18 @@
         android:layout_height="250dp"
         android:layout_marginTop="80dp"
         android:layout_gravity="center"
-        android:src="@drawable/perfil"
-        >
+        android:src="@drawable/perfil">
     </ImageView>
 
     <TextView
+        android:id="@+id/usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Usuario"
         android:layout_gravity="center"
-        android:textSize="20sp"
-        >
+        android:textSize="20sp">
     </TextView>
+
     <EditText
         android:id="@+id/passwdEdit2"
         android:layout_width="wrap_content"
@@ -43,16 +43,15 @@
         android:layout_marginTop="8dp"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        android:textAlignment="center"
-        />
+        android:textAlignment="center"/>
+
     <Button
         android:id="@+id/ingresarbtn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
-        android:text="Ingresar"
-        >
+        android:text="Ingresar">
     </Button>
 
     <Button
@@ -60,8 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Atras"
-        >
+        android:text="Atras">
     </Button>
 
 </LinearLayout>
